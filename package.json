@@ -1,0 +1,27 @@
+{
+  "name": "svelte-kit-test-base",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "check": "svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./jsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.30",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-load-config": "^3.1.4",
+    "svelte": "^3.48.0",
+    "svelte-check": "^2.7.0",
+    "svelte-preprocess": "^4.10.5",
+    "tailwindcss": "^3.0.23",
+    "typescript": "~4.6.4"
+  },
+  "type": "module"
+}
